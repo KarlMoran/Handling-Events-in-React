@@ -4,7 +4,8 @@ import "./App.css";
 // import EventsBinding from "./components/EventsBinding";
 // import ConditionalRenderingFunctional from "./components/ConditionalRenderingFunctional";
 // import ConditionalRenderingClass from "./components/ConditionalRenderingClass";
-import NestingComponents from "./components/NestingComponents";
+// import NestingComponents from "./components/NestingComponents";
+import MethodsAsPropsParent from "./components/MethodsAsPropsParent";
 
 function App() {
   return <div className="App">
@@ -13,7 +14,8 @@ function App() {
       {/* <EventsBinding /> */}
       {/* <ConditionalRenderingFunctional connected={true}/>
       <ConditionalRenderingClass /> */}
-      <NestingComponents />
+      {/* <NestingComponents /> */}
+      <MethodsAsPropsParent />
   </div>;
 }
 
